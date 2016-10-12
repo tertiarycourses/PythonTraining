@@ -1,0 +1,4 @@
+Amazon	 632.99
+Apple	 107.13
+Google	 800.5
+Intel	 60.0

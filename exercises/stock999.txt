@@ -1,0 +1,4 @@
+Apple 	105.97
+Google 	790.0
+Intel 	31.97
+Microsoft 	55.78
