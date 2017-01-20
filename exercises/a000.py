@@ -1,2 +1,0 @@
-# Python Essential Training
-pr
