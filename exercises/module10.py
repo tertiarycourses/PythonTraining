@@ -14,15 +14,19 @@
 # 	print("Please enter an integer")
 
 # Challenge
-# correct_number = 6
+# import random
+
+# die = random.choice([1,2,3,4,5,6])
+# print('The correct answer is ',die)
 
 # while True:
-#     try:
-#         guess = int(input('Guess a number : '))
-#         if (guess == correct_number):
-#             print("good guess!")
-#             break
-#         else:
-#             guess = int("a")
-#     except:
-#     	print("wrong guess, try again")
+# 	try:
+# 		guess = int(input('Guess the die no : '))
+# 		if guess == die:
+# 			print("Good Guess") 
+# 			break
+# 		else:
+# 			int('wrong guess')
+# 	except:
+# 		print("Pls try again")
+
