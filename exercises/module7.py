@@ -85,26 +85,13 @@ a = (i*i for i in range(100) if i%2==0)
 
 # Generator Function
 
-# def even_numbers(n):
-# 	a = []
+# def range2(n):
 # 	for i in range(n):
-# 		if i%2 == 0: a.append(i)
-# 	return a
+# 		if i%2 == 0:yield i
 
-# print(even_numbers(100000))
+# for i in range2(10):
+# 	print(i)
 
-# def even_numbers(n):
-# 	for i in range(n):
-# 		if i%2 == 0: 
-# 			yield i
-
-# a = even_numbers(20)
-# print(next(a))
-# print(next(a))
-# print(next(a))
-# print(next(a))
-# print(next(a))
-# print(next(a))
 
 # Challenge
 # def fibo():

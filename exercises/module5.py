@@ -62,6 +62,14 @@
 
 # print(sum2(1,100))
 
+# Loop through dictionary
+# def f(**a):
+# 	for i,j in a.items():
+# 		print(i,j)
+
+#a = {'a':3,'b':5}
+# f(a=3,b=5)
+
 # Lambda Function
 
 # def f(x):
@@ -80,6 +88,17 @@
 # a = [2,3,4,5]
 # b = map(lambda x:10*x+4,a)
 # print(list(b))
+
+# Exercise: Map
+# x = [0,1,2,3]
+# y = [2,4,6,8]
+
+# a = map(lambda x,y:10*x+y,x,y)
+# print(list(a))
+
+# Filter
+# a = filter(lambda x:x>4,[5,6,3,2,7])
+# print(list(a))
 
 
 

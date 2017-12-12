@@ -1,4 +1,4 @@
-# Python Essential Training
+
 # Module 2: Data Types
 # Author: Dr. Alfred Ang
 # Update: 19 Jan 2017

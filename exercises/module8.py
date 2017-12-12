@@ -31,14 +31,14 @@
 
 # Challenge: Class
 
-class Rectangle():
+# class Rectangle():
 
-	def __init__(self,length,width):
-		self.length = length
-		self.width = width
+# 	def __init__(self,length,width):
+# 		self.length = length
+# 		self.width = width
 
-	def area(self):
-		print("Area = {}".format(self.length*self.width))
+# 	def area(self):
+# 		print("Area = {}".format(self.length*self.width))
 
 
 # rect1 = Rectangle(10,20)
@@ -51,23 +51,23 @@ class Rectangle():
 # rect3.area()
 
 # Challenge: Class 
-class Employee():
+# class Employee():
 
-	empCount = 0
+# 	empCount = 0
 
-	def __init__(self,name,salary):
-		self.name = name
-		self.salary = salary
-		Employee.empCount += 1
+# 	def __init__(self,name,salary):
+# 		self.name = name
+# 		self.salary = salary
+# 		Employee.empCount += 1
 
-	def __del__(self):
-		Employee.empCount -= 1
+# 	def __del__(self):
+# 		Employee.empCount -= 1
 
-	def disp_empCount(self):
-		print("Employee Count = {}".format(Employee.empCount))
+# 	def disp_empCount(self):
+# 		print("Employee Count = {}".format(Employee.empCount))
 
-	def disp_empDetails(self):
-		print("{} salary is {}".format(self.name,self.salary))
+# 	def disp_empDetails(self):
+# 		print("{} salary is {}".format(self.name,self.salary))
 
 # emp1 = Employee("Ally",4000)
 # emp2 = Employee("Belinda",5000)
@@ -77,76 +77,116 @@ class Employee():
 # del emp4
 # emp1.disp_empCount()
 
-
-# class Square(Rectangle):
+# class Square(Rect):
 
 # 	def __init__(self,length):
 # 		super().__init__(length,length)
 
-# 	def perimeter(self):
-# 		print("Perimeter = {}".format(4*self.length))
+# s1 = Square(10)
+# s1.area()
 
-# sq1 = Square(10)
-# sq1.area()
-# sq1.perimeter()
-# print(sq1.length)
-# print(sq1.width)
 
 # Challenge : Inheritance
-# class FullTimeStaff(Employee):
-# 	#pass
+# class Employee():
 
+# 	empCount = 0
+
+# 	def __init__(self,name,salary):
+# 		self.name = name
+# 		self.salary = salary
+# 		Employee.empCount += 1
+
+# 	def __del__(self):
+# 		Employee.empCount -= 1
+
+# 	def dispEmpCount(self):
+# 		print("No of employee = ",Employee.empCount)
+
+# 	def dispEmpInfo(self):
+# 		print("{} salary is {}".format(self.name,self.salary))
+
+# class FullTimeStaff(Employee):
 # 	def __init__(self,name,salary,leave):
 # 		super().__init__(name,salary)
-# 		# self.name = name
-# 		# self.salary = salary
 # 		self.leave = leave
 
-# 	def disp_empDetails(self):
+# 	def dispEmpInfo(self):
 # 		print("{} salary is {} and leave is {}".format(self.name,self.salary,self.leave))
 
 
 # class PartTimeStaff(Employee):
 # 	def __init__(self,name,hrrate):
 # 		super().__init__(name,0)
-# 		self.hrrate  = hrrate
+# 		self.hrrate = hrrate
+# 		Employee.empCount -= 1
 
-# 	def disp_empDetails(self):
-# 		print("{} hourly rate is {}".format(self.name,self.hrrate))
+# 	def __del__(self):
+# 		pass
 
+# 	def dispEmpInfo(self):
+# 		print("{} hrrate is {}".format(self.name,self.hrrate))
 
-# emp1 = FullTimeStaff("Ally",4000,21)
-# emp2 = FullTimeStaff("Belinda",5000,25)
-# emp3 = PartTimeStaff("Jane",100)
+# p1 = FullTimeStaff("Alfred",4000,21)
+# p2 = FullTimeStaff("Ally",3000,18)
+# p3 = FullTimeStaff("Jane",2000,14)
+# p4 = PartTimeStaff("Steve",100)
+# p5 = PartTimeStaff("Belinda",200)
 
-# emp1.disp_empDetails()
-# emp2.disp_empDetails()
-# emp3.disp_empDetails()
-# emp1.disp_empCount()
-# del emp3
-# emp1.disp_empCount()
+# p1.dispEmpCount()
+# p1.dispEmpInfo()
+# p4.dispEmpInfo()
+# del p2
+# del p4
+# p1.dispEmpCount()
+
 
 # Polymerism
 # class Animal():
-# 	def talk(self):
-# 		print("Animal can talk")
 
-# class Cat(Animal):
+# 	#legs = 4
+
+# 	def __init__(self,legs):
+# 		self.legs = legs
+
 # 	def talk(self):
-# 		print("meow meow meow")
+# 		print("talk like an animal")
+
+# 	def info(self):
+# 		print("This animal has {} legs".format(self.legs))
 
 # class Dog(Animal):
+
+# 	def __init__(self,color):
+# 		super().__init__(4)
+# 		self.color = color
+
 # 	def talk(self):
-# 		print("wof wof wof")
+# 		print("Woof Woof Woof...")
 
-# def sound(a):
-# 	a.talk()
+# 	def info(self):
+# 		print("This {} dog has {} legs  ".format(self.color, self.legs))
+# 		self.talk()
 
-# cat1 = Cat()
-# dog1 = Dog()
+# class Cat(Animal):
 
-# sound(cat1)
-# sound(dog1)
+# 	def __init__(self,color):
+# 		super().__init__(4)
+# 		self.color = color
+
+# 	def talk(self):
+# 		print("Meow Meow Meow...")
+
+# 	def info(self):
+# 		print("This {} cat has {} legs  ".format(self.color, self.legs))
+# 		self.talk()
+
+# def playSound(animal):
+# 	animal.info()
+
+# d1 = Dog("white")
+# c1 = Cat("gray")
+
+# playSound(c1)
 
 
 	
