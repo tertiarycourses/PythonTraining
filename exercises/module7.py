@@ -21,15 +21,23 @@
 # print(b)
 
 # a = "Today is a rainy day"
-# b = a.split()
+
+# a = "Today is a great day and a great learning experience"
+# words = a.split()
+# print(words)
+# first_letter = {word[0]:word[-1] for word in words}
+# print(first_letter)
+# last_letter = [word[-1] for word in words]
+# print(last_letter)
+
+# a = [1,2,3,4,5,6,7,8,9,10]
+# b = [i for i in range(1,11) if not i%2==0]
+# print(b)
 # print(b)
 
-# Get the first letter of each word
-# c = [i[0] for i in b]
-# print(c)
-
-# Get the last letter of each word
-# c = [i[-1] for i in b]
+# c = []
+# for i in range(1,11):
+# 	c.append(i)
 # print(c)
 
 # Set Comprehension
@@ -49,6 +57,7 @@
 # print(b)
 
 # Challenge 
+# b = [i*i for i in range(1,400) if not i%3==0 and not i%5==0]
 # b = [i*i for i in range(40) if not (i%3 == 0 or i%5 == 0)]
 # print(b)
 
@@ -85,12 +94,33 @@ a = (i*i for i in range(100) if i%2==0)
 
 # Generator Function
 
-# def range2(n):
+# def square(n):
+# 	a = []
 # 	for i in range(n):
-# 		if i%2 == 0:yield i
+# 		a.append(i*i)
+# 		return a
 
-# for i in range2(10):
+# def square2(n):
+# 	for i in range(n):
+# 		yield i*i
+
+# for i in square2(10):
 # 	print(i)
+
+# s = square2(10)
+# print(next(s)) #t=1
+# print(next(s)) #t=2
+# print(next(s)) #t=3
+# print(next(s))
+# print(next(s))
+# print(next(s))
+# print(next(s))
+# print(next(s))
+# print(next(s))
+# print(next(s)) #t=10
+# print(next(s)) #t=11
+# print(next(s)) #t=12
+# print(next(s)) #t=13
 
 
 # Challenge
@@ -101,7 +131,6 @@ a = (i*i for i in range(100) if i%2==0)
 # 		a,b=b,a+b
 
 # f = fibo()
-# print(next(f))
 # print(next(f))
 # print(next(f))
 # print(next(f))

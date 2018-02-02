@@ -5,30 +5,43 @@
 
 import sqlite3
 
-# Create/Link to database
-db= sqlite3.connect('test.db')
+# db = sqlite3.connect('school.db')
 
-# Create table
-db.execute('CREATE TABLE student(name text,rank int)')
-db.commit()
+# db.execute('create table student (name text,rank int)')
 
-# Populate data
-db.execute('INSERT INTO student (name, rank) values (?,?)',('Ally',1))
-db.execute('INSERT INTO student (name, rank) values (?,?)',('Belinda',2))
-db.execute('INSERT INTO student (name, rank) values (?,?)',('Jane',3))
-db.execute('INSERT INTO student (name, rank) values (?,?)',('Steven',4))
-db.commit()
+# Insert Record
+# db.execute('insert into student (name,rank) values (?,?)',('Belinda',2))
+# db.execute('insert into student (name,rank) values (?,?)',('Jane',3))
+# db.execute('insert into student (name,rank) values (?,?)',('Steve',4))
+# db.execute('insert into student (name,rank) values (?,?)',('Alfred',5))
+# db.commit()
 
-# Update data
-# db.execute('UPDATE student SET rank=? WHERE name=?',(2,'Ally'))
-# db.execute('UPDATE student SET rank=? WHERE name=?',(1,'Belinda'))
+# Update Record
+# db.execute('update student set rank=? where name=?',(5,'Steve'))
+# db.execute('update student set rank=? where name=?',(4,'Alfred'))
 
-# Delete data
-#db.execute('DELETE FROM student WHERE rank=4')
+# Delete Record
+# db.execute('delete from student where rank=5')
 
-# Read data
-list = db.execute('SELECT * FROM student ORDER BY rank')
+# Read REcord
+# list = db.execute('select * from subjects order by subject')
 
-for i in list:
-	print(i)
+# for i in list:
+# 	print(i)
 
+
+# Challenge
+# db = sqlite3.connect('school.db')
+
+# db.execute('create table subjects (subject text,students int, classes int)')
+
+# db.execute('insert into subjects (subject,students, classes) values (?,?,?)',('English',200,10))
+# db.execute('insert into subjects (subject,students, classes) values (?,?,?)',('Chinese',50,8))
+# db.execute('insert into subjects (subject,students, classes) values (?,?,?)',('Math',80,12))
+# db.execute('insert into subjects (subject,students, classes) values (?,?,?)',('Science',80,12))
+# db.commit()
+
+# list = db.execute('select * from subjects order by subject')
+
+# for i in list:
+# 	print(i)

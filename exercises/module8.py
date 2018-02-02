@@ -91,104 +91,97 @@
 
 # 	empCount = 0
 
-# 	def __init__(self,name,salary):
+# 	def __init__(self,name, salary):
 # 		self.name = name
 # 		self.salary = salary
-# 		Employee.empCount += 1
+# 		Employee.empCount = Employee.empCount + 1
 
 # 	def __del__(self):
-# 		Employee.empCount -= 1
+# 		Employee.empCount = Employee.empCount - 1
 
 # 	def dispEmpCount(self):
-# 		print("No of employee = ",Employee.empCount)
-
-# 	def dispEmpInfo(self):
-# 		print("{} salary is {}".format(self.name,self.salary))
+# 		print("Employee count is ",Employee.empCount)
+		
+# 	def dispEmpDetail(self):
+# 		print("{} salary is ${}".format(self.name,self.salary))
 
 # class FullTimeStaff(Employee):
+
 # 	def __init__(self,name,salary,leave):
 # 		super().__init__(name,salary)
 # 		self.leave = leave
 
-# 	def dispEmpInfo(self):
-# 		print("{} salary is {} and leave is {}".format(self.name,self.salary,self.leave))
-
+# 	def dispEmpDetail(self):
+# 		print("{} salary is ${} and leave is {}days".format(self.name,self.salary,self.leave))
 
 # class PartTimeStaff(Employee):
+
 # 	def __init__(self,name,hrrate):
 # 		super().__init__(name,0)
 # 		self.hrrate = hrrate
-# 		Employee.empCount -= 1
+# 		Employee.empCount = Employee.empCount - 1
 
 # 	def __del__(self):
 # 		pass
 
-# 	def dispEmpInfo(self):
-# 		print("{} hrrate is {}".format(self.name,self.hrrate))
+# 	def dispEmpDetail(self):
+# 		print("{} hourly rate is ${} per hour".format(self.name,self.hrate))
 
-# p1 = FullTimeStaff("Alfred",4000,21)
-# p2 = FullTimeStaff("Ally",3000,18)
-# p3 = FullTimeStaff("Jane",2000,14)
-# p4 = PartTimeStaff("Steve",100)
-# p5 = PartTimeStaff("Belinda",200)
-
-# p1.dispEmpCount()
-# p1.dispEmpInfo()
-# p4.dispEmpInfo()
-# del p2
-# del p4
-# p1.dispEmpCount()
+# # Testing
+# ally = FullTimeStaff("Ally",4000,21)
+# belinda = FullTimeStaff("Belinda",4000,21)
+# jane = PartTimeStaff("Jane",200)
+# steve = PartTimeStaff("Steve",200)
+# ally.dispEmpCount()
+# del belinda
+# del steve
+# ally.dispEmpCount()
 
 
 # Polymerism
 # class Animal():
 
-# 	#legs = 4
+# 	type = "animal"
 
-# 	def __init__(self,legs):
+# 	# color = "white"
+# 	# legs = 4
+
+# 	def __init__(self,color,legs):
+# 		self.color = color
 # 		self.legs = legs
+
+# 	# def __del__(self):
+# 	# 	print("i am destroyed")
 
 # 	def talk(self):
 # 		print("talk like an animal")
 
-# 	def info(self):
-# 		print("This animal has {} legs".format(self.legs))
-
 # class Dog(Animal):
 
-# 	def __init__(self,color):
-# 		super().__init__(4)
-# 		self.color = color
-
+# 	def __init__(self,color,name):
+# 		super().__init__(color,4)
+# 		self.name = name
+	
 # 	def talk(self):
-# 		print("Woof Woof Woof...")
-
-# 	def info(self):
-# 		print("This {} dog has {} legs  ".format(self.color, self.legs))
-# 		self.talk()
+# 		print("{} woof woof woof".format(self.name))
 
 # class Cat(Animal):
 
-# 	def __init__(self,color):
-# 		super().__init__(4)
-# 		self.color = color
-
+# 	def __init__(self,color,name):
+# 		super().__init__(color,4)
+# 		self.name = name
+	
 # 	def talk(self):
-# 		print("Meow Meow Meow...")
+# 		print("{} meow meow meow".format(self.name))
 
-# 	def info(self):
-# 		print("This {} cat has {} legs  ".format(self.color, self.legs))
-# 		self.talk()
+# d1 = Dog("white","ally")
+# c1 = Cat("black","belinda")
 
-# def playSound(animal):
-# 	animal.info()
+# def sound(any):
+# 	any.talk()
 
-# d1 = Dog("white")
-# c1 = Cat("gray")
-
-# playSound(c1)
-
-
+# sound(d1)
+# sound(c1)
 	
 
 
