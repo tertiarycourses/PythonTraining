@@ -29,6 +29,8 @@ import pandas as pd
 # df = pd.read_csv('subjects.txt')
 # print(df[df.Students>70])
 
-
+# Exercise
+# df = pd.read_csv('subjects.txt')
+# print(df[df.Classes>10])
 
 

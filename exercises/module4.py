@@ -17,18 +17,19 @@
 # discount = 25 if order > 200 else 0
 # print(discount)
 
-# grade = "D"
-grade = input('What is your grade')
+# Exercise
+# grade = input('What is your grade')
+# grade = grade.upper()
 
-if (grade == 'A'):
-	print("Excellent")
-elif (grade == "B"):
-	print("Well Done!")
-elif (grade == 'C'):
-	print("Work Harder")
-else:
-	print('I don\'t know your grade\n')
-	print("the end")
+# if (grade == 'A'):
+# 	print("Excellent")
+# elif (grade == "B"):
+# 	print("Well Done!")
+# elif (grade == 'C'):
+# 	print("Work Harder")
+# else:
+# 	print("I don't know your grade")
+
 
 # Loop
 
@@ -59,6 +60,7 @@ else:
 # 	a.append(i*i)
 # print(a)
 
+# Enumerate
 # person = ['Ally','Belinda','Jane']
 # height = [168,155,170]
 # weight = [60,68,55]
@@ -67,18 +69,33 @@ else:
 # 	#print(index, name)
 # 	print("{} height is {}cm and weight is {}kg".format(name,height[index],weight[index]))
 
-# c = zip(person,height,weight)
+# Zip
+# person = ['Alfred','Ally','Belinda']
+# height = [170,160,155]
+
+# c = zip(person,height)
+# for i,j in c:
+#     print(i,j)
+
+# Exercise: Zip
+# name = ['Ally','Belinda','Jane']
+# height = [170,159,161]
+# weight = [60,55,45]
+
+# c = zip(name,height,weight)
 #print(list(c))
 
 # for name, h, w in c:
 # 	print("{} height is {}cm and weight is {}kg".format(name,h,w))
 
+# Else in Loop
 # for i in range(1,11):
 # 	if i==4:break
 # 	print(i)
 # else:
 # 	print("no break")
 
+# Exercise
 # primes = []
 # for n in range(1,101):
 # 	for divisor in range(2, n):

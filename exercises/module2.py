@@ -141,12 +141,20 @@
 # print(a.union(c))
 # print(a.intersection(c))
 
+# Ex: Set
+# sent = "Peter reads a book on a table"
+# words = sent.split()
+# vocab = set(words)
+# print(vocab)
+# print(len(vocab))
+
+
 # Change Type
 
-a = {4,5,6,3}
-b = list(a)
-print(b)
-c = tuple(a)
-print(c)
-d = set(c)
-print(d)
+# a = {4,5,6,3}
+# b = list(a)
+# print(b)
+# c = tuple(a)
+# print(c)
+# d = set(c)
+# print(d)

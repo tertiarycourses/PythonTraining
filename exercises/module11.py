@@ -62,14 +62,15 @@
 # Challenge
 
 # import sqlite3
-# db= sqlite3.connect('test.db')
 
-# students = db.execute('SELECT * FROM student ORDER BY rank')
+# db = sqlite3.connect('school.db')
+
+# students = db.execute('select * from subjects order by subject')
+# # print(students)
 # # for i in students:
-# 	print(i)
+# # 	print(i)
 
-# f = open('student.txt','w')
-
-# for i in students:
-# 	f.write("{}\t{}\n".format(i[0],i[1]))
+# with open('subjects.txt','w') as f:
+# 	for i,j,k in students:
+# 		f.write("{}\t{}\t{}\n".format(i,j,k))
 
