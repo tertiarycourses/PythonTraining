@@ -9,16 +9,16 @@ https://www.tertiarycourses.com.sg/python-3-essential-training-in-singapore.html
 
 https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 
-<p><strong>Module 1 Get Ready</strong> </p>
+<h2>Day 1</h2>
+<p><strong>Topic 1 Get Started with Python</strong></p>
 <ul>
 <li>Overview</li>
 <li>Install Python</li>
 <li>Install Sublime Text &amp; PyCharm</li>
 <li>First Python Script</li>
 <li>Comment</li>
-<li>Interactive Python IDLE</li>
 </ul>
-<p><strong>Module 2: Data Types</strong></p>
+<p><strong>Topci 2 Data Types</strong></p>
 <ul>
 <li>Number&nbsp;</li>
 <li>String&nbsp;</li>
@@ -27,7 +27,7 @@ https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 <li>Dictionary</li>
 <li>Set</li>
 </ul>
-<p><strong>Module 3 Operators</strong> </p>
+<p><strong>Topic 3 Operators</strong></p>
 <ul>
 <li>Arithmetic Operators</li>
 <li>Compound Operators</li>
@@ -36,7 +36,7 @@ https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 <li>Logical Operators</li>
 <li>Identity Operators</li>
 </ul>
-<p><strong>Module 4 Control Structure</strong> </p>
+<p><strong>Topic 4 Control Structure</strong></p>
 <ul>
 <li>Conditional</li>
 <li>Loop</li>
@@ -44,7 +44,7 @@ https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 <li>Break &amp; Continue</li>
 <li>Loop with Else</li>
 </ul>
-<p><strong>Module 5 Function</strong> </p>
+<p><strong>Topic 5 Function</strong></p>
 <ul>
 <li>Function Syntax</li>
 <li>Return Single Value</li>
@@ -55,12 +55,7 @@ https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 <li>Decorator</li>
 <li>Lambda, Map, Filter</li>
 </ul>
-<p><strong>Module 6 Comprehensions &amp; Generators</strong> </p>
-<ul>
-<li>Comprehensions</li>
-<li>Generators</li>
-</ul>
-<p><strong>Module 7 Modules &amp; Packages</strong> </p>
+<p><strong>Topic 6 Modules &amp; Packages</strong></p>
 <ul>
 <li>Modules</li>
 <li>Packages</li>
@@ -68,36 +63,46 @@ https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 <li>Install Third Party Packages</li>
 <li>Anaconda Packages</li>
 </ul>
-<p><strong>Module 8 Object Oriented Programming</strong></p>
+<h2>Day 2</h2>
+<p><strong>Topic 7 Comprehensions &amp; Generators</strong></p>
 <ul>
-<li>Class</li>
-<li>Object</li>
-<li>Method</li>
-<li>Initializer &amp; Destructor&nbsp;</li>
+<li>Comprehension Syntax</li>
+<li>Types of Comprehension</li>
+<li>Generator Syntax</li>
+<li>Types of Generators</li>
+</ul>
+<p><strong>Topic 8 File and Directory Handling</strong></p>
+<ul>
+<li>Read and Write Data to Files</li>
+<li>Manage File and Folders with Python OS Module</li>
+<li>Manage Paths with Python Pathlib Module</li>
+</ul>
+<p><strong>Topic 9 Object Oriented Programming</strong></p>
+<ul>
+<li>Introduction to Object Oriented Programming</li>
+<li>Create Class and Objects</li>
+<li>Method and Overloading</li>
+<li>Initializer &amp; Destructor</li>
 <li>Inheritance</li>
 <li>Polymorphism</li>
 </ul>
-<p><strong>Module 9 Database</strong></p>
+<p><strong>Topic 10 Database</strong></p>
 <ul>
-<li>Database API</li>
-<li>Create SQLite3 database</li>
-<li>CRUD on SQLite3</li>
+<li>Setup SQLite3 database</li>
+<li>Apply CRUD operations on SQLite3</li>
+<li>Integrate to external databases</li>
 </ul>
-<p><br /><strong>Module 10 Exception</strong></p>
+<p><strong>Topic 11 Error Handling Using Exception</strong></p>
 <ul>
-<li>What is Exception</li>
-<li>Exception Syntax</li>
+<li>Exceptions versus Syntax Errors</li>
+<li>Handle Exceptions with Try and Except blocks</li>
+<li>The Else clause</li>
+<li>Clean up with Finally</li>
 </ul>
-<p><strong>Module 11 Files I/O</strong></p>
-<ul>
-<li>Open a file</li>
-<li>Write to a file</li>
-<li>Read from a file</li>
-<li>Close a file</li>
-</ul>
-<p><strong>Module 12 Intro to Third Party Packages</strong></p>
+<p><strong>Topic 12 Intro to Useful Packages (Optional)</strong></p>
 <ul>
 <li>Numpy</li>
 <li>Matplotlib</li>
 <li>Pandas</li>
 </ul>
+<p><strong>Scenario Based Mini Project (Optional)</strong></p>
