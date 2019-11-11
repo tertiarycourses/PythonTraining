@@ -4,7 +4,10 @@
 These are the exercise files used for [Python 3 Essential Training](https://www.tertiarycourses.com.sg/python-3-essential-training-in-singapore.html) course. 
 
 The course outline can be found in 
+
 https://www.tertiarycourses.com.sg/python-3-essential-training-in-singapore.html
+
+https://www.tertiarycourses.com.my/python-3-essential-training-in-malaysia.html
 
 <p><strong>Module 1 Get Ready</strong> </p>
 <ul>
