@@ -1,5 +1,5 @@
 # Python 3 Essential Training
-## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
+## by [Tertiary Courses](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Python 3 Essential Training](https://www.tertiarycourses.com.sg/python-3-essential-training-in-singapore.html) course. 
 
